@@ -5,19 +5,19 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Add/Edit New Student</title>
+<title>Add/Edit New Employee</title>
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 </head>
 <body>
-  <h1>Add/Edit Student Page</h1>
+  <h1>Add/Edit Employee Page</h1>
    <div class="container container-default">
    		<div class="well">
 			<form action="StudentServlet.do" method="post">	
 				 <div class="form-group row">
-	                <label for="studentId" class="col-2 col-form-label">Student ID</label> 
+	                <label for="studentId" class="col-2 col-form-label">Employee ID</label> 
 	                <div class="col-10">
 		                <input type="text" class="form-control"
 		                    name="studentId" value="<c:out value="${student.studentId}" />"
