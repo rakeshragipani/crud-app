@@ -12,4 +12,4 @@ node {
         sh 'mvn clean package'
         }
     }
-}i
+}
