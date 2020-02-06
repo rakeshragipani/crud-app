@@ -4,7 +4,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-	<title>All Students</title>
+	<title>All Employees</title>
 	<link rel="stylesheet"
 		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet"
@@ -13,11 +13,11 @@
 <body>
     <div class="container container-default">
   
-	   <h1>Student List Page</h1>  
+	   <h1>Employee List Page</h1>  
 	    <table class="table table-striped">
 	        <thead>
 	            <tr>
-	                <th>Student ID</th>
+	                <th>Employee ID</th>
 	                <th>First Name</th>
 	                <th>Last Name</th>
 	                <th>Course</th>
