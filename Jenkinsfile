@@ -1,5 +1,5 @@
 node {
-    
+    //devlop
     stage('git url'){
     git credentialsId: 'bitbucket', url: 'https://stacklynx1@bitbucket.org/stacklynx1/crud-app.git'  
     }
