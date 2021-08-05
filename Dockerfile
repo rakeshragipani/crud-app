@@ -1,4 +1,4 @@
-FROM tomcat:8.5.57
+FROM tomcat:8-jre8
 LABEL maintainer=”rakesh.ragipani@gmail.com”
 ADD target/crudApp.war /usr/local/tomcat/webapps/
 EXPOSE 8080
