@@ -1,0 +1,2 @@
+kubectl apply -f kubernetespod.yaml
+#helm install crudapp kubernetes/
